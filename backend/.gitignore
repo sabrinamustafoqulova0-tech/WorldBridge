@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.suo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+.tox/
+
+# Alembic generated migrations (keep only committed ones)
+# alembic/versions/*.py  # uncomment if you want to exclude
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.override.yml
+
+# Secrets / credentials
+*.pem
+*.key
+*.crt

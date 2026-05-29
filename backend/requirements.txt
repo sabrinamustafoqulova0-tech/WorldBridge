@@ -1,0 +1,26 @@
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+
+# ── Database ──────────────────────────────────────────────────────────────────
+sqlalchemy
+asyncpg
+aiosqlite
+alembic
+
+# ── Auth & Security ───────────────────────────────────────────────────────────
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# ── Config ────────────────────────────────────────────────────────────────────
+pydantic
+pydantic-settings
+email-validator
+
+# ── HTTP client ───────────────────────────────────────────────────────────────
+httpx
+
+# ── Dev / Testing ─────────────────────────────────────────────────────────────
+pytest
+pytest-asyncio
